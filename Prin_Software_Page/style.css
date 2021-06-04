@@ -1,0 +1,174 @@
+
+body {
+
+margin: 0;
+
+margin-top: 50px;
+
+font-family: sans-serif;
+
+
+
+}
+
+ 
+
+header {
+
+display: flex;
+
+position: fixed;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+height: 50px;
+
+line-height: 50px;
+
+background-color: #1c87c9;
+
+}
+
+ 
+
+header * {
+
+display: inline;
+
+height: 50px;
+
+}
+
+ 
+
+headerul {
+
+padding: 0;
+
+}
+
+ 
+
+header li {
+
+margin-left: 20px;
+
+}
+
+ 
+
+section {
+
+height: 100vh;
+
+border: 1px solid black;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+ 
+
+background-size: cover; /* Add this line */
+
+background-position: center center; /* Add this line */
+
+background-repeat: no-repeat; /* Add this line */
+
+background-attachment: fixed; /* Add this line */
+
+
+}
+
+ 
+
+#hero .profile-img {
+
+width: 300px;
+
+border-radius: 50%;
+
+}
+
+ 
+
+footer {
+
+text-align: center;
+
+padding: 50px;
+
+}
+
+ 
+
+#hero h1 {
+
+font-size: 3em;
+
+}
+
+ 
+
+section h2 {
+
+font-size: 2.5em;
+
+}
+
+ 
+
+section h3 {
+
+font-size: 1.5em;
+
+}
+
+ 
+
+header a {
+
+text-decoration: none;
+
+color: black;
+
+}
+
+/* Add everything below here */
+
+#hero {
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(‘https://scontent.fcgk18-2.fna.fbcdn.net/v/t1.0-9/60903720_10219096913924536_7793117871105638400_n.jpg?_nc_cat=104&_nc_ht=scontent.fcgk18-2.fna&oh=0699be50b4ae038bf8f3da4b5bbced8f&oe=5D58596E‘);
+
+}
+
+ 
+
+#about {
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(‘https://scontent.fcgk18-2.fna.fbcdn.net/v/t1.0-9/60232304_10219096916964612_1350888178050924544_n.jpg?_nc_cat=100&_nc_ht=scontent.fcgk18-2.fna&oh=72784f19fd9cf8cf9ca99d7dfc53735b&oe=5D54C31C‘);
+
+}
+
+ 
+
+#contact {
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(‘https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/60586842_10219096915844584_3123709442135162880_n.jpg?_nc_cat=107&_nc_ht=scontent-sin6-1.xx&oh=870f6e76c4eae89bba33c7ab76d37127&oe=5D554E78‘);
+
+}
+
+
+
+
+
+
+
